@@ -11,3 +11,6 @@ class BasicDB(MarketDB):
         if market not in self._data.keys():
             self._data[market] = []
         self._data[market] += history_data
+
+    def get_data(self, market):
+        return self._data[market]

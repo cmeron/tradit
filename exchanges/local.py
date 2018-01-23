@@ -21,4 +21,4 @@ class Local(Exchange):
         data = json.load(open("exchanges/local-data/{}".format(market_string), "r"))
         if "result" not in data:
             raise Exception("Invalid JSON reply: {}".format(data))
-        return [data["result"]]
+        return data["result"]

@@ -32,4 +32,4 @@ class Bitrex(Exchange):
         data = json.loads(http_reply.text)
         if "result" not in data:
             raise Exception("Invalid JSON reply: {}".format(data))
-        return [data["result"]]
+        return data["result"]
