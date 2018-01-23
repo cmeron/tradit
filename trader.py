@@ -9,7 +9,7 @@ from dbs import BasicDB
 if __name__ == "__main__":
     marketdb = BasicDB()
     analyzer = RPI()
-    exchange_points = [Bitrex()]
+    exchange_points = [Local()]  # Bitrex()
 
     for exchange in exchange_points:
         for market in exchange.get_available_markets():
