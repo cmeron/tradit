@@ -1,4 +1,4 @@
-from bitrex import Bitrex
-from local import Local
+from .bitrex import Bitrex
+from .local import Local
 
 
