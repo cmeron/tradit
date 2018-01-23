@@ -2,14 +2,14 @@
 
 from pprint import pprint
 
-from exchanges import Bitrex
+from exchanges import Bitrex, Local
 from analyzers import RPI
 from dbs import BasicDB
 
 if __name__ == "__main__":
     marketdb = BasicDB()
     analyzer = RPI()
-    exchange_points = [ Bitrex() ]
+    exchange_points = [Bitrex()]
 
     for exchange in exchange_points:
         for market in exchange.get_available_markets():
