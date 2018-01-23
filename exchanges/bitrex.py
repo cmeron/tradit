@@ -1,7 +1,7 @@
 import requests
 import json
 
-from _exchange import Exchange
+from ._exchange import Exchange
 
 
 class Bitrex(Exchange):

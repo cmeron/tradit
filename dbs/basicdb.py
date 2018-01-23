@@ -1,4 +1,4 @@
-from _marketdb import MarketDB
+from ._marketdb import MarketDB
 
 
 class BasicDB(MarketDB):

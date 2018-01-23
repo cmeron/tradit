@@ -1,4 +1,4 @@
-from _analyzer import Analyzer
+from ._analyzer import Analyzer
 
 
 class RSI(Analyzer):

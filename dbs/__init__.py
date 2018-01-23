@@ -1,1 +1,1 @@
-from basicdb import BasicDB
+from .basicdb import BasicDB

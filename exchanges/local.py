@@ -1,4 +1,4 @@
-from _exchange import Exchange
+from ._exchange import Exchange
 
 import json
 
